@@ -1,0 +1,10 @@
+
+# for vim
+*~
+
+# for emacs
+*.swp
+
+# for lisp
+*.dx32fsl
+
