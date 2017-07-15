@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Component Lifecycle</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div id="parent">
+      <button id="ok">OK</button>
+      <button id="cancel">キャンセル</button>
+    </div>
+    <script>
+      document.getElementById('parent').addEventListener('click', function(event) {
+        var button = event.target;
+
+        // 押されたボタンに応じて、異なる処理を行います
+        switch(button.id) {
+        case 'ok':
+          console.log('OK!');
+          break;
+        case 'cancel':
+          console.log('キャンセル!');
+          break;
+        default:
+          new Error('不正なIDです');
+        };
+      });
+    </script>
+  </body>
+</html>
