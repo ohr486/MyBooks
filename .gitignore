@@ -8,3 +8,5 @@
 # for lisp
 *.dx32fsl
 
+# for mac
+.DS_Store
