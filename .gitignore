@@ -1,8 +1,6 @@
 
-# for vim
+# for editor
 *~
-
-# for emacs
 *.swp
 
 # for lisp
