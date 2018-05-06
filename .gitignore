@@ -1,5 +1,6 @@
 # for ide
 .idel
+*.impl
 
 # for editor
 *~
