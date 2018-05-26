@@ -1,3 +1,6 @@
+# for lisp
+*.dx32fsl
+
 # for ide
 .idel
 *.impl
@@ -5,9 +8,6 @@
 # for editor
 *~
 *.swp
-
-# for lisp
-*.dx32fsl
 
 # for mac
 .DS_Store
