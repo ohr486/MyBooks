@@ -1,6 +1,10 @@
 # for lisp
 *.dx32fsl
 
+# for Ruby
+.byebug_history
+.env
+
 # for ide
 .idel
 *.impl
