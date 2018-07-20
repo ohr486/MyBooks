@@ -5,6 +5,7 @@
 .byebug_history
 .env
 
+# for IDE
 .idel
 *.impl
 .vscode
