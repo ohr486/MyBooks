@@ -10,6 +10,8 @@ MyBooks
 #### Reactビギナーズガイド
 #### 作りながら学ぶReact入門
 
+### TypeScript
+
 ### Ruby
 #### Rubyのしくみ
 
@@ -18,3 +20,7 @@ MyBooks
 #### スターティングGo言語
 
 ### Elixir
+
+### Erlang
+
+### Haskell
