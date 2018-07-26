@@ -10,6 +10,7 @@
 *.impl
 .vscode
 .ideavimrc
+.idel
 
 # for editor
 *~
