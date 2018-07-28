@@ -15,6 +15,8 @@ MyBooks
 ### Ruby
 #### Rubyのしくみ
 
+### Python
+
 ### Golang
 #### GO言語で作るインタプリタ
 #### スターティングGo言語
@@ -26,5 +28,6 @@ MyBooks
 ### Haskell
 
 ### ML
+#### OCaml
 
 ### PHP
