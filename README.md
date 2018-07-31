@@ -25,6 +25,8 @@ MyBooks
 
 ### Erlang
 
+### Rust
+
 ### Haskell
 
 ### ML
