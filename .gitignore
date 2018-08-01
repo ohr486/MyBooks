@@ -5,6 +5,8 @@
 .byebug_history
 .env
 
+# for Scala
+
 # for IDE
 .idel
 *.impl
