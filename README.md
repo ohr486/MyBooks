@@ -36,6 +36,8 @@ MyBooks
 
 ### PHP
 
+### Scala
+
 ### Testing
 
 ### Design
