@@ -50,6 +50,7 @@ MyBooks
 
 ### Design Pattern
 #### GoF
+#### DP Ruby
 
 ### Infra
 
