@@ -30,6 +30,7 @@ MyBooks
 ### Erlang
 
 ### Rust
+#### Programming Rust
 
 ### Haskell
 
