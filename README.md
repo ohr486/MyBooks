@@ -31,6 +31,7 @@ MyBooks
 #### Programming Elixir
 
 ### Erlang
+#### すごいE本
 
 ### Rust
 #### Programming Rust
