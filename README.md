@@ -7,6 +7,7 @@ MyBooks
 #### Land of Lisp
 
 ### Clojure
+#### Programming Clojure
 
 ### Scheme
 #### Programming Gauche
