@@ -11,6 +11,7 @@ MyBooks
 
 ### Scheme
 #### Programming Gauche
+#### SICP
 
 ### JavaScript
 #### Reactビギナーズガイド
