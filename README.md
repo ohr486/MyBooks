@@ -22,6 +22,7 @@ MyBooks
 
 ### Ruby
 #### Rubyのしくみ
+#### DesignPattern
 
 ### Python
 
