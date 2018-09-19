@@ -70,7 +70,7 @@ MyBooks
 #### DP Ruby
 
 ### Infra
-#### Docker(仮)
+#### Docker
 #### DockerKubernetes実践コンテナ開発入門
 
 ### Cloud
