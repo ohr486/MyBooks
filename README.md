@@ -73,7 +73,9 @@ MyBooks
 #### Docker
 #### DockerKubernetes実践コンテナ開発入門
 
-### Cloud
+#### AWS
+
+#### GCP
 
 ### SRE
 
