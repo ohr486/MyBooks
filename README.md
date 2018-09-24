@@ -1,16 +1,18 @@
 MyBooks
 =======
 
+## 言語
+
 ### LISP
-#### 実用Common Lisp
-#### 実践Common Lisp
-#### Land of Lisp
+#### 実用CommonLisp
+#### 実践CommonLisp
+#### LandOfLisp
 
 ### Clojure
-#### Programming Clojure
+#### ProgrammingClojure
 
 ### Scheme
-#### Programming Gauche
+#### ProgrammingGauche
 #### SICP
 
 ### JavaScript
