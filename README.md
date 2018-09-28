@@ -58,15 +58,15 @@ MyBooks
 
 ### Prolog
 
+### NativeApp
+### iOS
+### Android
+
 ## Development
 
 ### SRE
 
 ### Testing
-
-### NativeApp
-### iOS
-### Android
 
 ### Design
 #### Serverless
@@ -75,7 +75,8 @@ MyBooks
 #### GoF
 #### DP Ruby
 
-### Infra
+## Infra
+### Docker
 #### Docker
 #### DockerKubernetes実践コンテナ開発入門
 #### Docker実践入門
