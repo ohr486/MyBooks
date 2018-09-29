@@ -88,8 +88,6 @@ MyBooks
 ### Middleware
 #### Kafka
 
-### AD
-
 ### IoT
 
 ### OS
