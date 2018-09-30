@@ -87,8 +87,7 @@ MyBooks
 
 ### Middleware
 #### Kafka
-
-### IoT
+#### Nginx
 
 ### OS
 #### BSD
