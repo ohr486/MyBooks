@@ -93,8 +93,6 @@ MyBooks
 #### BSD
 #### 自作OS
 
-### TCP/IP
-
 ### Tool
 #### Git
 #### vim
