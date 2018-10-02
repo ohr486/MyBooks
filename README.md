@@ -2,70 +2,50 @@ MyBooks
 =======
 
 ## 言語
-
-### LISP
+### [LISP]
 #### 実用CommonLisp
 #### 実践CommonLisp
 #### LandOfLisp
-
-### Clojure
+### [Clojure]
 #### ProgrammingClojure
-
-### Scheme
+### [Scheme]
 #### ProgrammingGauche
 #### SICP
-
-### JavaScript
+### [JavaScript]
 #### Reactビギナーズガイド
 #### 作りながら学ぶReact入門
 #### ReactNative
-
-### TypeScript
-
-### Ruby
+### [TypeScript]
+### [Ruby]
 #### Rubyのしくみ
 #### DesignPattern
-
-### Python
-
-### Golang
+### [Python]
+### [Golang]
 #### GO言語で作るインタプリタ
 #### スターティングGo言語
-
-### Java
+### [Java]
 #### ReactiveX
-
-### Elixir
+### [Elixir]
 #### Programming Elixir
 #### Programming Ecto
-
-### Erlang
+### [Erlang]
 #### すごいE本
-
-### Rust
+### [Rust]
 #### Programming Rust
-
-### Haskell
-
-### ML
+### [Haskell]
+### [ML]
 #### OCaml
+### [PHP]
+### [Scala]
+### [Swift]
+### [Prolog]
 
-### PHP
-
-### Scala
-
-### Swift
-
-### Prolog
-
-### NativeApp
+## NativeApp
 ### iOS
 ### Android
 
 ## Development
-
 ### SRE
-
 ### Testing
 
 ### Design
