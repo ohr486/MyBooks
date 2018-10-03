@@ -1,7 +1,7 @@
 MyBooks
 =======
 
-## 言語
+## lang
 ### [LISP]
 #### 実用CommonLisp
 #### 実践CommonLisp
@@ -44,37 +44,33 @@ MyBooks
 ### iOS
 ### Android
 
-## Development
+## development
 ### SRE
 ### Testing
 
-### Design
-#### Serverless
-
-### Design Pattern
+## design
+### [DesignPattern]
 #### GoF
-#### DP Ruby
+#### DPRuby
 
-## Infra
-### Docker
+## infra
+### [Docker]
 #### Docker
 #### DockerKubernetes実践コンテナ開発入門
 #### Docker実践入門
+### [AWS]
+### [GCP]
 
-### Cloud
-#### AWS
-#### GCP
+## Middleware
+### Kafka
+### Nginx
 
-### Middleware
-#### Kafka
-#### Nginx
+## OS
+### BSD
+### 自作OS
 
-### OS
-#### BSD
-#### 自作OS
-
-### Tool
-#### Git
-#### vim
-#### emacs
-#### jetbrains
+## Tool
+### Git
+### vim
+### emacs
+### jetbrains
