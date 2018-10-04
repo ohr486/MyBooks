@@ -61,14 +61,6 @@ MyBooks
 ### [AWS]
 ### [GCP]
 
-## Middleware
-### Kafka
-### Nginx
-
-## OS
-### BSD
-### 自作OS
-
 ## Tool
 ### Git
 ### vim
