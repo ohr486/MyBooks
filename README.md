@@ -45,10 +45,6 @@ MyBooks
 ### iOS
 ### Android
 
-## development
-### SRE
-### Testing
-
 ## design
 ### [DesignPattern]
 #### GoF
