@@ -59,7 +59,5 @@ MyBooks
 ### [GCP]
 
 ## Tool
-### Git
-### vim
-### emacs
-### jetbrains
+### [Git]
+### [Editor]
