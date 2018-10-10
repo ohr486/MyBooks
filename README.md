@@ -41,14 +41,8 @@ MyBooks
 ### [Swift]
 ### [Prolog]
 
-## NativeApp
-### iOS
-### Android
-
 ## design
 ### [DesignPattern]
-#### GoF
-#### DPRuby
 
 ## infra
 ### [Docker]
@@ -57,6 +51,8 @@ MyBooks
 #### Docker実践入門
 ### [AWS]
 ### [GCP]
+
+## NativeApp
 
 ## Tool
 ### [Git]
