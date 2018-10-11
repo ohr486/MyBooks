@@ -52,8 +52,6 @@ MyBooks
 ### [AWS]
 ### [GCP]
 
-## NativeApp
-
 ## Tool
 ### [Git]
 ### [Editor]
