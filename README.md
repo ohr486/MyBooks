@@ -41,9 +41,6 @@ MyBooks
 ### [Swift]
 ### [Prolog]
 
-## design
-### [DesignPattern]
-
 ## infra
 ### [Docker]
 #### Docker
