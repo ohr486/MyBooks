@@ -50,7 +50,3 @@ MyBooks
 #### 初めてのAnsible
 ### [AWS]
 ### [GCP]
-
-## tool
-### [Git]
-### [Editor]
