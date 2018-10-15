@@ -48,5 +48,3 @@ MyBooks
 #### Docker実践入門
 ### [Ansible]
 #### 初めてのAnsible
-### [AWS]
-### [GCP]
