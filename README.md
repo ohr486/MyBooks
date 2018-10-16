@@ -39,7 +39,6 @@ MyBooks
 ### [PHP]
 ### [Scala]
 ### [Swift]
-### [Prolog]
 
 ## infra
 ### [Docker]
