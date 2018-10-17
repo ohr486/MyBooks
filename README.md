@@ -38,7 +38,6 @@ MyBooks
 #### OCaml
 ### [PHP]
 ### [Scala]
-### [Swift]
 
 ## infra
 ### [Docker]
