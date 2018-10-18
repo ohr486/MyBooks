@@ -7,9 +7,7 @@ MyBooks
 #### 実践CommonLisp
 #### LandOfLisp
 ### [Clojure]
-#### ProgrammingClojure
 ### [Scheme]
-#### ProgrammingGauche
 #### SICP
 ### [JavaScript]
 #### Reactビギナーズガイド
