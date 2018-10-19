@@ -6,7 +6,6 @@ MyBooks
 #### 実用CommonLisp
 #### 実践CommonLisp
 #### LandOfLisp
-### [Clojure]
 ### [Scheme]
 #### SICP
 ### [JavaScript]
@@ -22,8 +21,6 @@ MyBooks
 ### [Golang]
 #### GO言語で作るインタプリタ
 #### スターティングGo言語
-### [Java]
-#### ReactiveX
 ### [Elixir]
 #### Programming Elixir
 #### Programming Ecto
