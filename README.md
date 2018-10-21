@@ -15,7 +15,6 @@ MyBooks
 ### [TypeScript]
 ### [Ruby]
 #### Rubyのしくみ
-#### DesignPattern
 ### [Python]
 #### PythonによるWebスクレイピング
 ### [Golang]
