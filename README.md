@@ -1,7 +1,7 @@
 MyBooks
 =======
 
-## lang
+## Lang
 ### [LISP]
 #### 実用CommonLisp
 #### 実践CommonLisp
