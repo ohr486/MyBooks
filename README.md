@@ -12,7 +12,6 @@ MyBooks
 #### Reactビギナーズガイド
 #### 作りながら学ぶReact入門
 #### ReactNative
-### [TypeScript]
 ### [Ruby]
 #### Rubyのしくみ
 ### [Python]
@@ -27,10 +26,8 @@ MyBooks
 #### すごいE本
 ### [Rust]
 #### Programming Rust
-### [Haskell]
 ### [ML]
 #### OCaml
-### [PHP]
 
 ## infra
 ### [Docker]
