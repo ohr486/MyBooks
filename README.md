@@ -23,10 +23,6 @@ MyBooks
 #### Programming Ecto
 ### [Erlang]
 #### すごいE本
-### [Rust]
-#### Programming Rust
-### [ML]
-#### OCaml
 ## infra
 ### [Docker]
 #### Docker
