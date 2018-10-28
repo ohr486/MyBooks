@@ -19,8 +19,6 @@ MyBooks
 #### GO言語で作るインタプリタ
 #### スターティングGo言語
 ### [Elixir]
-#### Programming Elixir
-#### Programming Ecto
 ### [Erlang]
 #### すごいE本
 ## infra
