@@ -2,8 +2,6 @@ MyBooks
 =======
 ## Lang
 ### [LISP]
-#### 実用CommonLisp
-#### 実践CommonLisp
 #### LandOfLisp
 ### [Scheme]
 #### SICP
