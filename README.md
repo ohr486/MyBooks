@@ -7,7 +7,6 @@ MyBooks
 #### SICP
 ### [JavaScript]
 #### Reactビギナーズガイド
-#### 作りながら学ぶReact入門
 #### ReactNative
 ### [Ruby]
 #### Rubyのしくみ
