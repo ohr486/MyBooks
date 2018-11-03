@@ -6,7 +6,6 @@ MyBooks
 ### [Scheme]
 #### SICP
 ### [JavaScript]
-#### Reactビギナーズガイド
 #### ReactNative
 ### [Ruby]
 #### Rubyのしくみ
