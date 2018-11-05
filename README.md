@@ -18,6 +18,5 @@ MyBooks
 #### すごいE本
 ## infra
 ### [Docker]
-#### DockerKubernetes実践コンテナ開発入門
 ### [Ansible]
 #### 初めてのAnsible
