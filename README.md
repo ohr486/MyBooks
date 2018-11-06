@@ -12,7 +12,6 @@ MyBooks
 ### [Python]
 #### PythonによるWebスクレイピング
 ### [Golang]
-#### GO言語で作るインタプリタ
 ### [Elixir]
 ### [Erlang]
 #### すごいE本
