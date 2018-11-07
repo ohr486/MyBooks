@@ -14,8 +14,7 @@ MyBooks
 ### [Golang]
 ### [Elixir]
 ### [Erlang]
-#### すごいE本
-## infra
+## Infra
 ### [Docker]
 ### [Ansible]
 #### 初めてのAnsible
