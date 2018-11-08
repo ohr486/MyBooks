@@ -17,4 +17,3 @@ MyBooks
 ## Infra
 ### [Docker]
 ### [Ansible]
-#### 初めてのAnsible
