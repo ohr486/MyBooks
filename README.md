@@ -4,7 +4,6 @@ MyBooks
 ### [LISP]
 #### LandOfLisp
 ### [Scheme]
-#### SICP
 ### [JavaScript]
 #### ReactNative
 ### [Ruby]
