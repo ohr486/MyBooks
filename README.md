@@ -5,7 +5,6 @@ MyBooks
 #### LandOfLisp
 ### [Scheme]
 ### [JavaScript]
-#### ReactNative
 ### [Ruby]
 #### Rubyのしくみ
 ### [Python]
