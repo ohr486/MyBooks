@@ -6,7 +6,6 @@ MyBooks
 ### [Scheme]
 ### [JavaScript]
 ### [Ruby]
-#### Rubyのしくみ
 ### [Python]
 #### PythonによるWebスクレイピング
 ### [Golang]
