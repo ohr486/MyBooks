@@ -7,7 +7,6 @@ MyBooks
 ### [JavaScript]
 ### [Ruby]
 ### [Python]
-#### PythonによるWebスクレイピング
 ### [Golang]
 ### [Elixir]
 ### [Erlang]
