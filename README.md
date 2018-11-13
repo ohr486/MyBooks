@@ -2,7 +2,6 @@ MyBooks
 =======
 ## Lang
 ### [LISP]
-#### LandOfLisp
 ### [Scheme]
 ### [JavaScript]
 ### [Ruby]
