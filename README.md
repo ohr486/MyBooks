@@ -7,6 +7,7 @@ MyBooks
 ### [Ruby]
 ### [Python]
 ### [Golang]
+#### スターティングGo言語
 ### [Elixir]
 ### [Erlang]
 ## Infra
