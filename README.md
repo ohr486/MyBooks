@@ -5,6 +5,7 @@ MyBooks
 #### LandOfLisp
 ### [Scheme]
 ### [JavaScript]
+#### puppeteer
 ### [Ruby]
 #### Microscope
 ### [Python]
