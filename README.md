@@ -13,7 +13,6 @@ MyBooks
 ### [Golang]
 #### Go言語によるWebアプリケーション開発
 #### スターティングGo言語
-#### Go言語によるWebアプリケーション開発
 ### [Elixir]
 #### ProgrammingElixir
 #### ProgrammingPhoenix
