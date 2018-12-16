@@ -9,7 +9,7 @@ MyBooks
 #### puppeteer
 ### [Ruby]
 #### Microscope
-#### DP
+#### Rubyのしくみ
 ### [Python]
 ### [Golang]
 #### Go言語によるWebアプリケーション開発
