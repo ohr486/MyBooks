@@ -10,7 +10,7 @@ type client struct {
 	room   *room
 }
 
-func (c *client) read() {
+func (c client) read() {
 	for {
 		if _, msg, err := c.socket.ReadMessage(); err == nil {
 			c.room.forward <- msg
@@ -29,5 +29,3 @@ func (c *client) read() {
 		c.socket.Close()
 	}
 }
-
-

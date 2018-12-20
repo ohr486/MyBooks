@@ -8,7 +8,10 @@ import (
 	"sync"
 )
 
-type templateHandler struct {
+type template
+clear
+ls
+andler struct {
 	once     sync.Once
 	filename string
 	templ    *template.Template
