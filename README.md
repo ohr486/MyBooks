@@ -19,6 +19,7 @@ MyBooks
 ### [Elixir]
 #### ProgrammingElixir
 #### ProgrammingPhoenix
+#### Elixir in Action
 ### [Erlang]
 ## Infra
 ### [Kubernetes]
