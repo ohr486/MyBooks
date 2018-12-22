@@ -21,6 +21,7 @@ MyBooks
 #### ProgrammingPhoenix
 #### Elixir in Action
 ### [Erlang]
+#### ProgrammingErlang
 ## Infra
 ### [Kubernetes]
 ### [Docker]
