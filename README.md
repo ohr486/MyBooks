@@ -3,8 +3,9 @@ MyBooks
 ## Lang
 ### [LISP]
 #### LandOfLisp
-#### 実用CommonLisp
+#### 実用CommonLis
 ### [Scheme]
+#### SICP
 ### [JavaScript]
 #### puppeteer
 #### react
