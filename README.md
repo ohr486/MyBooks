@@ -22,6 +22,8 @@ MyBooks
 #### ProgrammingPhoenix
 #### Elixir in Action
 ### [Erlang]
+### [Java]
+#### Java並行処理プログラミング
 #### ProgrammingErlang
 ## Infra
 ### [Kubernetes]
