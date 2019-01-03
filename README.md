@@ -8,7 +8,7 @@ MyBooks
 ### [Scheme]
 #### SICP
 ### [JavaScript]
-#### puppeteer
+#### puppeteer入門
 #### react
 #### 入門React
 ### [Ruby]
