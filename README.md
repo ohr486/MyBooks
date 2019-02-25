@@ -32,6 +32,7 @@ MyBooks
 #### Java並行処理プログラミング
 #### ProgrammingErlang
 ### [C#]
+#### 実践C#
 ## Infra
 ### [Kubernetes]
 #### Docker&K8s
