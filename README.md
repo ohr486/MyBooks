@@ -28,6 +28,7 @@ MyBooks
 #### ProgrammingPhoenix
 #### Elixir in Action
 ### [Erlang]
+#### プログラミングErlang
 ### [Java]
 #### Java並行処理プログラミング
 #### ProgrammingErlang
