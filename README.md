@@ -34,8 +34,8 @@ MyBooks
 #### ProgrammingErlang
 ### [C#]
 #### 実践C#
-## Infra
 ### [PHP]
+## Infra
 ### [Kubernetes]
 #### Docker&K8s
 #### 入門k8s
