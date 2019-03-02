@@ -36,6 +36,7 @@ MyBooks
 #### 実践C#
 ### [PHP]
 ## Infra
+### [AWS]
 ### [Kubernetes]
 #### Docker&K8s
 #### 入門k8s
