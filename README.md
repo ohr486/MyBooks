@@ -30,6 +30,7 @@ MyBooks
 #### Elixir in Action
 ### [Erlang]
 #### プログラミングErlang
+#### すごいErlangゆかいに学ぼう
 ### [Haskell]
 #### RealWorldHaskell
 ### [Java]
