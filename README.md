@@ -30,6 +30,7 @@ MyBooks
 ### [Erlang]
 #### プログラミングErlang
 ### [Haskell]
+#### RealWorldHaskell
 ### [Java]
 #### Java並行処理プログラミング
 #### ProgrammingErlang
