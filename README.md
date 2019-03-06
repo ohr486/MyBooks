@@ -33,6 +33,7 @@ MyBooks
 #### すごいErlangゆかいに学ぼう
 ### [Haskell]
 #### RealWorldHaskell
+#### すごいHaskell本
 ### [Java]
 #### Java並行処理プログラミング
 #### ProgrammingErlang
