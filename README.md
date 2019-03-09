@@ -5,6 +5,7 @@ MyBooks
 #### LandOfLisp
 #### 実用CommonLisp
 #### 実践CommonLisp
+#### LISP入門
 ### [Scheme]
 #### SICP
 #### ProgrammingGauche
