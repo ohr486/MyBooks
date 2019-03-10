@@ -29,6 +29,7 @@ MyBooks
 #### ProgrammingElixir
 #### ProgrammingPhoenix
 #### Elixir in Action
+#### Little Elixir & TOP
 ### [Erlang]
 #### プログラミングErlang
 #### すごいErlangゆかいに学ぼう
