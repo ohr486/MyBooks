@@ -33,12 +33,12 @@ MyBooks
 ### [Erlang]
 #### プログラミングErlang
 #### すごいErlangゆかいに学ぼう
+#### ProgrammingErlang
 ### [Haskell]
 #### RealWorldHaskell
 #### すごいHaskell本
 ### [Java]
 #### Java並行処理プログラミング
-#### ProgrammingErlang
 ### [C#]
 #### 実践C#
 ### [PHP]
