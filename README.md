@@ -19,6 +19,7 @@ MyBooks
 #### Microscope
 #### Rubyのしくみ
 #### RSpecBook
+### [mruby]
 ### [Python]
 ### [Golang]
 #### Go言語によるWebアプリケーション開発
