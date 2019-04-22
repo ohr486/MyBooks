@@ -43,6 +43,7 @@ MyBooks
 ### [C#]
 #### 実践C#
 ### [PHP]
+### [Rust]
 ## Infra
 ### [AWS]
 ### [GCP]
