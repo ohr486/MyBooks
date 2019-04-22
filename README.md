@@ -47,6 +47,7 @@ MyBooks
 ## Infra
 ### [AWS]
 ### [GCP]
+### [Azure]
 ### [Kubernetes]
 #### Docker&K8s
 #### 入門k8s
