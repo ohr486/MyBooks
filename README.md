@@ -69,5 +69,3 @@ MyBooks
 ## Network
 #### TCP/IP入門
 #### マスタリングXMPP
-## 電子工作
-## IoT
