@@ -70,7 +70,6 @@ MyBooks
 #### TCP/IP入門
 #### マスタリングXMPP
 ## Game
-## Web
 ## Magazine
 ### Web+DB
 ### SoftwareDesign
