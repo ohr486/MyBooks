@@ -66,9 +66,6 @@ MyBooks
 ### DataAnalysis
 #### LambdaARchtecture
 #### スケーラブルリアルタイムデータ分析入門
-## Network
-#### TCP/IP入門
-#### マスタリングXMPP
 ## Magazine
 ### Web+DB
 ### SoftwareDesign
