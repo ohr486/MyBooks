@@ -43,6 +43,7 @@ MyBooks
 #### 実践C#
 ### [PHP]
 ### [Rust]
+#### 実践Rust
 ## Design
 ### [Pattern]
 #### 分散システムデザインパターン
