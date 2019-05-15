@@ -44,6 +44,7 @@ MyBooks
 ### [PHP]
 ### [Rust]
 #### 実践Rust
+#### Rust
 ## Design
 ### [Pattern]
 #### 分散システムデザインパターン
