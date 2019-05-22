@@ -49,6 +49,7 @@ MyBooks
 ### [Pattern]
 #### 分散システムデザインパターン
 #### GoF
+#### デザインパターンRuby
 ## Infra
 ### [AWS]
 ### [GCP]
