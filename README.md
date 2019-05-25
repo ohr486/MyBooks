@@ -6,7 +6,6 @@ MyBooks
 #### 実用CommonLisp
 #### 実践CommonLisp
 #### LISP入門
-#### AI
 ### [Scheme]
 #### SICP
 #### ProgrammingGauche
@@ -71,3 +70,4 @@ MyBooks
 ### DataAnalysis
 #### LambdaARchtecture
 #### スケーラブルリアルタイムデータ分析入門
+## AI
