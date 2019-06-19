@@ -42,6 +42,7 @@ MyBooks
 ### [C#]
 #### 実践C#
 ### [PHP]
+#### Laravel
 ### [Rust]
 #### 実践Rust
 #### Rust
