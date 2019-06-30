@@ -12,7 +12,7 @@ MyBooks
 #### ProgrammingGauche
 #### LandOfLisp
 ### [Clojure]
-#### ClojureScript
+#### ProgrammingClojure
 ### [JavaScript]
 #### puppeteer入門
 #### react
