@@ -77,7 +77,7 @@ MyBooks
 #### LambdaARchtecture
 #### スケーラブルリアルタイムデータ分析入門
 ## 電子工作
-### ラズベリーパイ
+### RasberryPi
 #### 入門RasberryPi
 ### IoT
 #### Arduinoを始めよう
