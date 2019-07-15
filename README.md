@@ -94,3 +94,4 @@ MyBooks
 #### TechnicalBlogging
 ### Magazine
 #### n月間LambdaNote1
+#### n月間LambdaNote2
