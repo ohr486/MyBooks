@@ -32,7 +32,7 @@ MyBooks
 ### [Elixir]
 #### ProgrammingElixir
 #### ProgrammingPhoenix
-#### Elixir in Action
+#### ElixirInAction
 #### Little Elixir & TOP
 #### ProgrammingEcto
 ### [Erlang]
