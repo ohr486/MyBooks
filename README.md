@@ -11,7 +11,6 @@ MyBooks
 ### [Scheme]
 #### SICP
 #### ProgrammingGauche
-#### LandOfLisp
 ### [Clojure]
 #### ProgrammingClojure
 ### [JavaScript]
