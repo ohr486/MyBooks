@@ -89,6 +89,7 @@ MyBooks
 ### Microservice
 ## Game
 #### 入門Webゲーム開発
+#### シューティングゲームマニアックス
 ## Etc
 ### Blog
 #### TechnicalBlogging
