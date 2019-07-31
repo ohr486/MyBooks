@@ -49,7 +49,7 @@ MyBooks
 #### Laravel
 ### [Rust]
 #### 実践Rust
-#### Rust
+#### Rustによるネットワークプログラミング
 ## Design
 ### [Pattern]
 #### 分散システムデザインパターン
