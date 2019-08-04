@@ -61,8 +61,8 @@ MyBooks
 ### [Azure]
 ### [Kubernetes]
 #### Docker&K8s
-#### 入門k8s
 #### Kubernetes完全ガイド
+#### 入門Kubernetes
 ### [Docker]
 #### Docker
 ### [Ansible]
