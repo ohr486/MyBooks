@@ -22,6 +22,7 @@ MyBooks
 #### Microscope
 #### Rubyのしくみ
 #### RSpecBook
+#### メタプログラミングRuby
 ### [Python]
 ### [Golang]
 #### Go言語によるWebアプリケーション開発
