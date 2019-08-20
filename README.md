@@ -94,7 +94,6 @@ MyBooks
 ## Database
 ### MySQL
 #### 詳解MySQL
-####
 ## Game
 #### 入門Webゲーム開発
 #### シューティングゲームマニアックス
