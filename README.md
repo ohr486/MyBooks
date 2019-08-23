@@ -93,7 +93,7 @@ MyBooks
 #### マイクロサービスアーキテクチャ
 ## Database
 ### MySQL
-#### マスタリングMySQL
+#### ハイパフォーマンスMySQL
 #### 詳解MySQL
 ## Game
 #### 入門Webゲーム開発
