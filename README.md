@@ -104,6 +104,9 @@ MyBooks
 ## Game
 #### 入門Webゲーム開発
 #### シューティングゲームマニアックス
+## OS
+### 自作OS
+#### OS自作入門
 ## Etc
 ### Blog
 #### TechnicalBlogging
