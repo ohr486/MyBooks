@@ -112,6 +112,8 @@ MyBooks
 ### OS概論
 #### オペレーションシステム
 ## Etc
+### CPU
+#### CPU自作入門
 ### Blog
 #### TechnicalBlogging
 ### Magazine
