@@ -75,7 +75,6 @@ MyBooks
 #### Kafka
 ### [Spark]
 #### Spark
-### [Middleware]
 #### Prometehus
 ## BigData
 ### DataAnalysis
