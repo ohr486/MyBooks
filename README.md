@@ -116,6 +116,7 @@ MyBooks
 #### 分散システム
 ### CPU
 #### CPU自作入門
+#### 独自CPU開発で学ぶコンピュータの仕組み
 ### Blog
 #### TechnicalBlogging
 ### Magazine
