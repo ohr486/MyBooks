@@ -59,6 +59,7 @@ MyBooks
 #### 分散システムデザインパターン
 #### GoF
 #### デザインパターンRuby
+#### WebAPI:TheGoodParts
 ## Infra
 ### [AWS]
 ### [GCP]
