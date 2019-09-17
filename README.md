@@ -17,6 +17,7 @@ MyBooks
 #### puppeteer入門
 #### react
 #### 入門React
+#### いまどきのJSプログラマのためのNode.jsとReactアプリケーション開発テクニック
 #### Electronではじめるアプリ開発入門
 ### [Ruby]
 #### Microscope
@@ -67,6 +68,7 @@ MyBooks
 ### [GCP]
 ### [Azure]
 ### [Kubernetes]
+### [Terraform]
 #### Docker&K8s
 #### Kubernetes完全ガイド
 #### 入門Kubernetes
