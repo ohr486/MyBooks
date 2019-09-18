@@ -24,6 +24,7 @@ MyBooks
 #### Rubyのしくみ
 #### RSpecBook
 #### メタプログラミングRuby
+#### Docker for Rails Developers
 ### [Python]
 ### [Golang]
 #### Go言語によるWebアプリケーション開発
