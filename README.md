@@ -41,6 +41,7 @@ MyBooks
 #### プログラミングErlang
 #### すごいErlangゆかいに学ぼう
 #### ProgrammingErlang
+#### ErlangInAnger
 ### [Haskell]
 #### RealWorldHaskell
 #### すごいHaskell本
