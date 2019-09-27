@@ -139,4 +139,4 @@ MyBooks
 # 同人系
 ## Infr
 ### 実践Terraform
-### サーバーレスを支える技術
+### Serverlessを支える技術
