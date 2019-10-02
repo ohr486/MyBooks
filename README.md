@@ -27,6 +27,7 @@ MyBooks
 #### メタプログラミングRuby
 #### Docker for Rails Developers
 ### [Python]
+#### テスト駆動Python
 ### [Golang]
 #### Go言語によるWebアプリケーション開発
 #### Go言語による平行処理
