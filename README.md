@@ -148,5 +148,4 @@ MyBooks
 ### Ruby
 #### Real World Metaprogramming Rub
 #### Reading Sinatra
-#### Reading ActiveRecord
-
+#### ActiveRecord完全に理解した
