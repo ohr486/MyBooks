@@ -63,6 +63,7 @@ MyBooks
 ### [Refactor]
 #### レガシーコード改善ガイド
 #### レガシーサービス改善ガイド
+#### レガシーコードからの脱却
 ### [Pattern]
 #### 分散システムデザインパターン
 #### GoF
@@ -139,6 +140,7 @@ MyBooks
 #### n月間LambdaNote2
 #### SoftwareDesign
 #### Web+DB
+## 組織
 # 同人系
 ## Infr
 ### 実践Terraform
