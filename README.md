@@ -39,6 +39,7 @@ MyBooks
 #### ElixirInAction
 #### Little Elixir & TOP
 #### ProgrammingEcto
+#### Property-Based Testing with PropEr, Erlang, and Elixir
 ### [Erlang]
 #### プログラミングErlang
 #### すごいErlangゆかいに学ぼう
