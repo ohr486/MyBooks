@@ -11,7 +11,7 @@ MyBooks
 #### LetOverLambda
 ### [Scheme]
 #### SICP
-#### ProgrammingGauche
+#### Programming Gauche
 ### [Clojure]
 #### ProgrammingClojure
 ### [JavaScript]
