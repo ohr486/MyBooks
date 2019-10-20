@@ -147,7 +147,7 @@ MyBooks
 ## 組織
 ### エンジニア組織論への招待
 # 同人系
-## Infr
+## Infra
 ### 実践Terraform
 ### Serverlessを支える技術
 ### AWS Lambda Custom Runtime入門
