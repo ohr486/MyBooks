@@ -154,7 +154,7 @@ MyBooks
 ## Lang
 ### Ruby
 #### Real World Metaprogramming Rub
-#### Reading Sinatra
+#### ReadingSinatra
 #### ActiveRecord完全に理解した
 #### RealWorldMetProgrammingRuby
 #### 入門PubSub
