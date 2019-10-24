@@ -153,7 +153,7 @@ MyBooks
 ### AWS Lambda Custom Runtime入門
 ## Lang
 ### Ruby
-#### Real World Metaprogramming Rub
+#### RealWorldMetaprogrammingRuby
 #### ReadingSinatra
 #### ActiveRecord完全に理解した
 #### RealWorldMetProgrammingRuby
