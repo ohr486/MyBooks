@@ -158,4 +158,3 @@ MyBooks
 #### ActiveRecord完全に理解した
 #### RealWorldMetProgrammingRuby
 #### 入門PubSub
-#### 入門Nats
