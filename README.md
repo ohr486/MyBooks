@@ -157,4 +157,3 @@ MyBooks
 #### ReadingSinatra
 #### ActiveRecord完全に理解した
 #### RealWorldMetProgrammingRuby
-#### 入門PubSub
