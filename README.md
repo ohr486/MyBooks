@@ -113,7 +113,7 @@ MyBooks
 #### GoF
 ####
 ## Database
-### MySQL
+### SQL
 #### ハイパフォーマンスMySQL
 #### 詳解MySQL
 ### PostgreSQL
