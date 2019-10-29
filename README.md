@@ -156,4 +156,3 @@ MyBooks
 #### RealWorldMetaprogrammingRuby
 #### ReadingSinatra
 #### ActiveRecord完全に理解した
-#### RealWorldMetProgrammingRuby
