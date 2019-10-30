@@ -155,4 +155,3 @@ MyBooks
 ### Ruby
 #### RealWorldMetaprogrammingRuby
 #### ReadingSinatra
-#### ActiveRecord完全に理解した
