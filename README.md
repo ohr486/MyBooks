@@ -154,4 +154,3 @@ MyBooks
 ## Lang
 ### Ruby
 #### RealWorldMetaprogrammingRuby
-#### ReadingSinatra
