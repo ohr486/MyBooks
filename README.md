@@ -149,4 +149,3 @@ MyBooks
 # 同人系
 ## Infra
 ### 実践Terraform
-### Serverlessを支える技術
