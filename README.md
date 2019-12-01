@@ -148,4 +148,3 @@ MyBooks
 ### エンジニア組織論への招待
 # 同人系
 ## Infra
-### Terraform
