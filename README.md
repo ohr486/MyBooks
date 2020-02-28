@@ -149,4 +149,3 @@ MyBooks
 ## 同人系
 ### Infra
 #### Terraform
-#### Itamae
