@@ -145,4 +145,3 @@ MyBooks
 #### SoftwareDesign
 #### Web+DB
 ## 組織
-### エンジニア組織論への招待
