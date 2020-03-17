@@ -140,4 +140,3 @@ MyBooks
 ### Blog
 #### TechnicalBlogging
 ### Magazine
-#### n月間LambdaNote1
