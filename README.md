@@ -139,4 +139,3 @@ MyBooks
 #### 定理証明手習い
 ### Blog
 #### TechnicalBlogging
-### Magazine
