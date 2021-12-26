@@ -61,6 +61,7 @@ MyBooks
 ### [Rust]
 #### 実践Rust
 #### Rustによるネットワークプログラミング
+#### Hands-on-Rust
 ## Design
 ### [Refactor]
 #### レガシーコード改善ガイド
