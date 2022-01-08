@@ -42,7 +42,7 @@ MyBooks
 #### Go言語による平行処理
 #### スターティングGo言語
 #### Goならわかるシステムプログラミング
-#### Go言語でつくるインタプリタ
+#### [Go言語でつくるインタプリタ](https://github.com/ohr486/MyBooks/tree/master/lang/golang/go_interpreter)
 
 ### [Elixir]
 #### ProgrammingElixir
