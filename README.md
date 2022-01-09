@@ -38,7 +38,7 @@ MyBooks
 #### テスト駆動Python
 
 ### [Golang]
-#### Go言語によるWebアプリケーション開発
+#### [Go言語によるWebアプリケーション開発](https://github.com/ohr486/MyBooks/tree/master/lang/golang/go_webapp)
 #### Go言語による平行処理
 #### スターティングGo言語
 #### Goならわかるシステムプログラミング
