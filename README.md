@@ -28,7 +28,7 @@ MyBooks
 #### Electronではじめるアプリ開発入門
 
 ### [Ruby]
-#### Microscope
+#### [Microscope](https://github.com/ohr486/MyBooks/tree/master/lang/ruby/micro)
 #### Rubyのしくみ
 #### RSpecBook
 #### メタプログラミングRuby
