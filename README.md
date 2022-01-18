@@ -99,24 +99,6 @@ MyBooks
 
 
 ## [Infra](https://github.com/ohr486/MyBooks/tree/master/infra)
-### [AWS]
-### [GCP]
-### [Azure]
-### [Kubernetes]
-### [Terraform]
-#### Docker&K8s
-#### Kubernetes完全ガイド
-#### 入門Kubernetes
-### [Docker]
-#### Docker
-### [Ansible]
-#### Ansible
-### [Kafka]
-#### Kafka
-### [Spark]
-#### Spark
-#### Prometehus
-
 
 
 ## BigData
