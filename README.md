@@ -115,10 +115,6 @@ MyBooks
 
 
 ## Tools
-### Git
-#### Github入門
-
-
 
 ## 電子工作
 ### RasberryPi
