@@ -135,13 +135,7 @@ MyBooks
 
 
 
-## Database
-### SQL
-#### ハイパフォーマンスMySQL
-#### 詳解MySQL
-### PostgreSQL
-
-
+## [Database](https://github.com/ohr486/MyBooks/tree/master/database)
 
 ## [Game](https://github.com/ohr486/MyBooks/tree/master/game)
 
