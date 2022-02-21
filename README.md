@@ -102,17 +102,10 @@ MyBooks
 
 
 ## BigData
-### DataAnalysis
-#### LambdaARchtecture
-#### スケーラブルリアルタイムデータ分析入門
-
-
 
 ## NativeApp
 ### iPhone
 #### 本気ではじめるiPhoneアプリ作り
-
-
 
 ## Tools
 
