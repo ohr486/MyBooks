@@ -1,8 +1,6 @@
 MyBooks
 =======
 
-
-
 ## [Lang](https://github.com/ohr486/MyBooks/tree/master/lang)
 
 ### [LISP]
