@@ -91,10 +91,7 @@ MyBooks
 #### デザインパターンRuby
 #### WebAPI:TheGoodParts
 
-
-
 ## [Test](https://github.com/ohr486/MyBooks/tree/master/testing)
-
 
 ## [Infra](https://github.com/ohr486/MyBooks/tree/master/infra)
 
