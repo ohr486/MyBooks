@@ -78,19 +78,6 @@ MyBooks
 #### Rustによるネットワークプログラミング
 #### [Hands-on-Rust](https://github.com/ohr486/MyBooks/tree/master/lang/rust/hands-on-rust)
 
-
-
-## Design
-### [Refactor]
-#### レガシーコード改善ガイド
-#### レガシーサービス改善ガイド
-#### レガシーコードからの脱却
-### [Pattern]
-#### 分散システムデザインパターン
-#### GoF
-#### デザインパターンRuby
-#### WebAPI:TheGoodParts
-
 ## [Test](https://github.com/ohr486/MyBooks/tree/master/testing)
 
 ## [Infra](https://github.com/ohr486/MyBooks/tree/master/infra)
