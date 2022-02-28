@@ -92,7 +92,7 @@ MyBooks
 
 ## App
 
-## [設計](https://github.com/ohr486/MyBooks/tree/master/design)
+## [Design](https://github.com/ohr486/MyBooks/tree/master/design)
 
 ## [Database](https://github.com/ohr486/MyBooks/tree/master/database)
 
