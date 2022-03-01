@@ -90,7 +90,7 @@ MyBooks
 
 ## [Tools](https://github.com/ohr486/MyBooks/tree/master/tools)
 
-## App
+## [App](https://github.com/ohr486/MyBooks/tree/master/app)
 
 ## [Design](https://github.com/ohr486/MyBooks/tree/master/design)
 
