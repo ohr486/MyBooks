@@ -84,10 +84,6 @@ MyBooks
 
 ## [Bigdata](https://github.com/ohr486/MyBooks/tree/master/bigdata)
 
-## NativeApp
-### iPhone
-#### 本気ではじめるiPhoneアプリ作り
-
 ## [Tools](https://github.com/ohr486/MyBooks/tree/master/tools)
 
 ## [App](https://github.com/ohr486/MyBooks/tree/master/app)
