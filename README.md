@@ -1,6 +1,17 @@
 MyBooks
 =======
 
+## [HackingGuide]
+
+- [EHG](https://github.com/ohr486/EHG)
+- [NHG](https://github.com/ohr486/NHG)
+
+## [Tools]
+
+- [dockerfiles](https://github.com/ohr486/dockerfiles)
+- [dotfiles](https://github.com/ohr486/dotfiles)
+
+
 ## [Lang](https://github.com/ohr486/MyBooks/tree/master/lang)
 
 ## [Test](https://github.com/ohr486/MyBooks/tree/master/testing)
