@@ -12,6 +12,7 @@ MyBooks
 
 - [EHG](https://github.com/ohr486/EHG)
 - [NHG](https://github.com/ohr486/NHG)
+- [EthHG](https://github.com/ohr486/EthHG)
 
 ## [Tools]
 
