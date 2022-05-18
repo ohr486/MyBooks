@@ -18,6 +18,7 @@ MyBooks
 
 - [dockerfiles](https://github.com/ohr486/dockerfiles)
 - [dotfiles](https://github.com/ohr486/dotfiles)
+- [my\_lifehack\_tools](https://github.com/ohr486/my_lifehack_tools)
 
 ## [Lang](https://github.com/ohr486/MyBooks/tree/master/lang)
 
