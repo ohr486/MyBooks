@@ -3,6 +3,7 @@
 ### [AWS]
 ### [GCP]
 ### [Azure]
+### [Alibaba]
 ### [Kubernetes]
 
 ### [Terraform]
