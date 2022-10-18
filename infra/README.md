@@ -1,9 +1,11 @@
 ## infra
 
-### [AWS]
-### [GCP]
-### [Azure]
-### [Alibaba]
+### [Cloud]
+#### [AWS]
+#### [GCP]
+#### [Azure]
+#### [Alibaba]
+
 ### [Kubernetes]
 
 ### [Terraform]
