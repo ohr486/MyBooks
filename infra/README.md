@@ -6,8 +6,6 @@
 #### [Azure]
 #### [Alibaba]
 
-### [Kubernetes]
-
 ### [Terraform]
 #### Docker&K8s
 #### Kubernetes完全ガイド
@@ -15,6 +13,8 @@
 
 ### [Docker]
 #### Docker
+
+### [Kubernetes]
 
 ### [Ansible]
 #### Ansible
