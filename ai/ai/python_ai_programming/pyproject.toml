@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-ai-programming"
+version = "0.1.0"
+description = ""
+authors = ["ohr486 <ohr486@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_ai_programming"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyterlab = "^3.6.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

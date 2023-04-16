@@ -22,6 +22,8 @@ MyBooks
 
 ## [Lang](https://github.com/ohr486/MyBooks/tree/master/lang)
 
+## [AI](https://github.com/ohr486/MyBooks/tree/master/ai)
+
 ## [Test](https://github.com/ohr486/MyBooks/tree/master/testing)
 
 ## [Infra](https://github.com/ohr486/MyBooks/tree/master/infra)
