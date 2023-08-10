@@ -138,6 +138,36 @@ cfssl gencert \
 
 
 
+# kube-proxy client certificate
+
+cat > kube-proxy-csr.json <<EOF
+{
+  "CN": "system:kube-proxy",
+  "key": {
+    "algo": "rsa",
+    "size": 2048
+  },
+  "names": [
+    {
+      "O": "system:node-proxier",
+      "OU": "Kubernetes The Hard Way",
+      "L": "Nakano",
+      "ST": "Tokyo",
+      "C": "JP"
+    }
+  ]
+}
+EOF
+
+cfssl gencert \
+  -ca=ca.pem \
+  -ca-key=ca-key.pem \
+  -config=ca-config.json \
+  -profile=kubernetes \
+  kube-proxy-csr.json | cfssljson -bare kube-proxy
+
+
+
 # scheduler client certificate
 
 cat > kube-scheduler-csr.json <<EOF
@@ -205,13 +235,44 @@ cfssl gencert \
 
 
 
-
-
 # service account key pair
+
+cat > service-account-csr.json <<EOF
+{
+  "CN": "service-account",
+  "key": {
+    "algo": "rsa",
+    "size": 2048
+  },
+  "names": [
+    {
+      "O": "Kubernetes",
+      "OU": "Kubernetes The Hard Way",
+      "L": "Nakano",
+      "ST": "Tokyo",
+      "C": "JP"
+    }
+  ]
+}
+EOF
+
+cfssl gencert \
+  -ca=ca.pem \
+  -ca-key=ca-key.pem \
+  -config=ca-config.json \
+  -profile=kubernetes \
+  service-account-csr.json | cfssljson -bare service-account
 
 
 
 # distribute client and server certificates
 
+for instance in worker-0 worker-1 worker-2; do
+  gcloud compute scp ca.pem ${instance}-key.pem ${instance}.pem ${instance}:~/
+done
 
+for instance in controller-0 controller-1 controller-2; do
+  gcloud compute scp ca.pem ca-key.pem kubernetes-key.pem kubernetes.pem \
+    service-account-key.pem service-account.pem ${instance}:~/
+done
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # cert
-rm -rf *.pem *.csr *.json
+rm -rf *.pem *.csr *.json *.kubeconfig
 
 # compute instances
 gcloud -q compute instances delete \
