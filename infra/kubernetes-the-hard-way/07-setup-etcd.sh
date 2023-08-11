@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo ===== 07: configure etcd =====
-
 # download and install etcd bins
 
 wget -q --show-progress --https-only --timestamping \

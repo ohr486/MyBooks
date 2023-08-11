@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo ===== check etcd =====
-
 # check etcd server
 
 sudo ETCDCTL_API=3 etcdctl member list \

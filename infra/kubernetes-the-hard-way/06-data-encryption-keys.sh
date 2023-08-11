@@ -17,8 +17,8 @@ resources:
     providers:
       - aescbc:
           keys:
-	    - name: key1
-	      secret: ${ENCRYPTION_KEY}
+            - name: key1
+              secret: ${ENCRYPTION_KEY}
       - identity: {}
 EOF
 
