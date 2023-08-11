@@ -92,7 +92,7 @@ kubectl config set-credentials system:kube-scheduler \
   --kubeconfig=kube-scheduler.kubeconfig
 
 kubectl config set-context default \
-  --cluster=kuberntes-the-hard-way \
+  --cluster=kubernetes-the-hard-way \
   --user=system:kube-scheduler \
   --kubeconfig=kube-scheduler.kubeconfig
 
