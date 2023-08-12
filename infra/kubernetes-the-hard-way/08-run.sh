@@ -1,7 +1,8 @@
 #!/bin/bash
 
 for instance in controller-0 controller-1 controller-2; do
-  gcloud compute scp 08-setup-controller.sh 08-start-controller.sh 08-setup-health-check.sh ${instance}:~/
+  gcloud compute scp 08-setup-controller.sh 08-start-controller.sh \
+    08-setup-health-check.sh 08-check-health-check.sh ${instance}:~/
 done
 
 for instance in controller-0 controller-1 controller-2; do
@@ -17,4 +18,9 @@ done
 for instance in controller-0 controller-1 controller-2; do
   echo === ${instance}: 08-setup-health-check.sh ===
   gcloud compute ssh ${instance} --command="./08-setup-health-check.sh"
+done
+
+for instance in controller-0 controller-1 controller-2; do
+  echo === ${instance}: 08-check-health-check.sh ===
+  gcloud compute ssh ${instance} --command="./08-check-health-check.sh"
 done
