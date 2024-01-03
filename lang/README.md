@@ -77,10 +77,7 @@ MyBooks
 #### 実践Rust
 #### Rustによるネットワークプログラミング
 #### [Hands-on-Rust](https://github.com/ohr486/MyBooks/tree/master/lang/rust/hands-on-rust)
-
-
-
-
+#### [Rustプログラミング完全ガイド](https://github.com/ohr486/MyBooks/tree/master/lang/rust/rust_programming_perfect_guide)
 
 ## [Test](https://github.com/ohr486/MyBooks/tree/master/testing)
 
