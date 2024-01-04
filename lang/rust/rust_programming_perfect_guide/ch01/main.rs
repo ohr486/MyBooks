@@ -1,4 +1,4 @@
-fn main(){
+fn main() {
     // 1.2
     print!("Hello, world!\n");
 
