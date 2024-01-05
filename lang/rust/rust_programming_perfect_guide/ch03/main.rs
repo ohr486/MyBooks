@@ -58,4 +58,73 @@ fn main() {
 
     println!("{} {} {}", "abc" < "abcd", "ab" < "ac", "A" < "a");
 
+    // 3.7
+    let truth = true;
+    let falsity = false;
+    println!("{} {}", ! truth, ! falsity);
+    println!("{} {}  {} {}", falsity && falsity, falsity && truth,
+        truth && falsity, truth && falsity);
+    println!("{} {}  {} {}", falsity || falsity, falsity || truth,
+             truth || falsity, truth || falsity);
+
+    println!("{}", true || true && !true);
+    println!("{}", (true || true) && !true);
+
+    // 3.8
+    let mut n = 1;
+    print!("{}", n);
+    n = 2;
+    print!(" {}", n);
+    n = 3;
+    // n = 3.14; // compile error
+    println!(" {}", n);
+
+    // 3.9
+    // let number; // compile error
+
+    let number1 = 12;
+    let _number2 = number1;
+
+    let mut n = 1.;
+    print!("{}", n);
+    n = 2.;
+    print!(" {}", n);
+    n = 3.14;
+    println!(" {}", n);
+
+    // 3.10
+    let mut n = 1;
+    print!("{}", n);
+    n = 2;
+    print!(" {}", n);
+    let n = 3.14;
+    println!(" {}", n);
+
+    let mut _n = 1;
+    _n = 2;
+    let _n = 3.14;
+    // _n = 5.9; // compile error
+
+    let x = 120; print!("{} ", x);
+    let x = "abcd"; print!("{} ", x);
+    let mut x = true; print!("{} ", x);
+    x = false; println!("{}", x);
+
+    // 3.11
+    let mut a = 12;
+    a = a + 1;
+    a = a - 4;
+    a = a * 7;
+    a = a / 6;
+    println!("{}", a);
+
+    let mut a = 12;
+    a += 1;
+    a -= 4;
+    a *= 7;
+    a /= 6;
+    println!("{}", a);
+
+    // 3.12
+    println!("{} {}", str::len("abcde"), "abcde".len());
 }
