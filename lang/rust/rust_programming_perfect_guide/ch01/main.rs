@@ -4,19 +4,27 @@ fn main() {
 
     // 1.3
     print!("{}, {}", "Hello", "world!\n");
+
     // print!("{}, !", "Hello", "world!"); // compile error
+
     // print!("{}, {}!", "Hello"); // compile error
 
     // 1.4
     print!("First line\nSecond line\nThird line\n");
+
     println!("text of the line");
+
     print!("text of the line\n");
 
     // 1.5
     println!("My number: 140");
+
     println!("My number: {}", "140");
+
     println!("My number: {}", 140);
+
     println!("My number: {}", 000140);
+
     println!("{}: {}", "My number", 140);
 
     // 1.6
