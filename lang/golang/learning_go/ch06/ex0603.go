@@ -9,10 +9,12 @@ func main() {
 		LastName   string
 	}
 
+	s := "Perry"
 	p := person{
 		firstName:  "Pat",
-		MiddleName: "Perry", // compile error
+		MiddleName: &s,
 		LastName:   "Peterson",
 	}
 	fmt.Println(p)
+	fmt.Println(*p.MiddleName)
 }

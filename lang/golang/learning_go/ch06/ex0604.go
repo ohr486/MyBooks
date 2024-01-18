@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+func stringp(s string) *string {
+	return &s
+}
+
 func main() {
 	type person struct {
 		firstName  string
@@ -11,8 +15,9 @@ func main() {
 
 	p := person{
 		firstName:  "Pat",
-		MiddleName: "Perry", // compile error
+		MiddleName: stringp("Perry"),
 		LastName:   "Peterson",
 	}
 	fmt.Println(p)
+	fmt.Println(*p.MiddleName)
 }
