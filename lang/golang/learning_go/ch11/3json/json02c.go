@@ -21,19 +21,14 @@ type Item struct {
 }
 
 func main() {
-	data := readData()
-	var o Order
-	err := json.Unmarshal(data, &o)
+	file, err := os.Open("testdata/data.json")
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Printf("%+v\n", o)
-}
+	defer file.Close()
 
-func readData() []byte {
-	b, err := os.ReadFile("testdata/data.json")
-	if err != nil {
-		log.Fatal(err)
-	}
-	return b
+	var o Order
+	d := json.NewDecoder(file)
+	d.Decode(&o)
+	fmt.Printf("%+v\n", o)
 }

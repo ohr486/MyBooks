@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"io"
 	"log"
 	"os"
 	"time"
@@ -31,9 +32,15 @@ func main() {
 }
 
 func readData() []byte {
-	b, err := os.ReadFile("testdata/data.json")
+	file, err := os.Open("testdata/data.json")
 	if err != nil {
 		log.Fatal(err)
 	}
-	return b
+	defer file.Close()
+
+	bytes, err := io.ReadAll(file)
+	if err != nil {
+		log.Fatal(err)
+	}
+	return bytes
 }

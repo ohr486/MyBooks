@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bytes"
 	"encoding/json"
 	"fmt"
 	"log"
@@ -21,19 +22,28 @@ type Item struct {
 }
 
 func main() {
-	data := readData()
-	var o Order
-	err := json.Unmarshal(data, &o)
+	r, err := os.Open("testdata/data2.json")
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Printf("%+v\n", o)
-}
 
-func readData() []byte {
-	b, err := os.ReadFile("testdata/data.json")
-	if err != nil {
-		log.Fatal(err)
+	var dec *json.Decoder
+	dec = json.NewDecoder(r)
+
+	var b bytes.Buffer
+	encoder := json.NewEncoder(&b)
+
+	for dec.More() {
+		var o Order
+		err := dec.Decode(&o)
+		if err != nil {
+			log.Fatal(err)
+		}
+		err = encoder.Encode(o)
+		if err != nil {
+			log.Fatal(err)
+		}
 	}
-	return b
+	out := b.String()
+	fmt.Printf("out:\n%v\n", out)
 }
