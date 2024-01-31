@@ -75,7 +75,7 @@ MyBooks
 #### PHP&MySQL
 
 ### [Rust]
-#### 実践Rust
+#### [実践Rust](https://github.com/ohr486/MyBooks/tree/master/lang/rust/command-line-rust)
 #### Rustによるネットワークプログラミング
 #### [Hands-on-Rust](https://github.com/ohr486/MyBooks/tree/master/lang/rust/hands-on-rust)
 #### [Rustプログラミング完全ガイド](https://github.com/ohr486/MyBooks/tree/master/lang/rust/rust_programming_perfect_guide)
