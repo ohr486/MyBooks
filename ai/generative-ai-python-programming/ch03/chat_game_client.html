@@ -1,0 +1,37 @@
+<html><body>
+    <style>
+        .red { color: red; margin: 0.5em; }
+        .blue { color: blue; margin: 0.5em; }
+    </style>
+    <h1>会話ゲーム</h1>
+    <div style="float:left"><img src="./girl.png" width="200"></div>
+    <div style="float:left">
+        <div id="chat" style="width:400px"></div>
+        <div style="margin:0.5em;">
+            <input type="text" id="in_text" size="50">
+            <input type="button" value="発言" onclick="send()">
+        </div>
+    </div>
+    <script>
+        function tohtml(s) {
+            s = '' + s
+            return s.replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;&').replace(/>/g, '&gt;');
+        }
+
+        async function send() {
+            const in_text = document.getElementById('in_text');
+            const chat = document.getElementById('chat');
+            const msg = in_text.value;
+            in_text.value = '';
+            chat.innerHTML += '<p class="blue">あなた: ' + tohtml(msg) + '</p>';
+            const f = await fetch('/send?msg=' + encodeURI(msg));
+            const res = await f.json();
+            console.log(res);
+            const answer = tohtml(res['答え']);
+            const fav = res['好感度'];
+            chat.innerHTML += `<p class="red">エリ: ${answer}(好感度:${fav})</p>`;
+            in_text.focus();
+        }
+    </script>
+</body></html>
