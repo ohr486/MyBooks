@@ -215,9 +215,8 @@ if __name__ == '__main__':
     for curDir, dirs, files in os.walk(args.src_dir):
         array_file.append((curDir, dirs, files))
 
-    #with Pool(args.num_process) as p:
-
     # hack for M1 Mac
+    #with Pool(args.num_process) as p:
     with get_context("fork").Pool(args.num_process) as p:
         p.map(_proc, list(range(args.num_process)))
 
