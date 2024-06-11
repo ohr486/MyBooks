@@ -42,6 +42,7 @@ MyBooks
 #### Goならわかるシステムプログラミング
 #### [Go言語でつくるインタプリタ](https://github.com/ohr486/MyBooks/tree/master/lang/golang/go_interpreter)
 #### [初めてのGo言語](https://github.com/ohr486/MyBooks/tree/master/lang/golang/learning_go)
+#### [実用Go言語](https://github.com/ohr486/MyBooks/tree/master/lang/golang/practical_go)
 
 ### [Elixir]
 #### ProgrammingElixir
