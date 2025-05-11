@@ -1,20 +1,14 @@
 import React from 'react';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
 import ReactDOM from "react-dom/client";
 import taskReducer from "./reducers/tasks";
-import TodoApp from "./components/TodoApp";
-import { createStore } from 'redux';
+import TodoApp from "./containers/TodoApp";
 
 const store = createStore(taskReducer);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-function renderApp(store) {
-    root.render(
-        <React.StrictMode>
-            <TodoApp store={store}/>
-        </React.StrictMode>
-    )
-}
-
-store.subscribe(() => renderApp(store));
-renderApp(store);
+ReactDOM.createRoot(document.getElementById('root')).render(
+    <Provider store={store}>
+        <TodoApp />
+    </Provider>
+)
