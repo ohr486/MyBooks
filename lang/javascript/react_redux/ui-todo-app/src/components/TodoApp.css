@@ -1,0 +1,10 @@
+.fade-enter {
+    opacity: 0;
+    transform: translateX(100px);
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 300ms ease-in;
+}
