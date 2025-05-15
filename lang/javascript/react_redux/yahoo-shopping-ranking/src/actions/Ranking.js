@@ -1,8 +1,8 @@
 import fetchJsonp from 'fetch-jsonp';
 import qs from 'qs';
 
-const API_URL = 'https://shopping.yahooapis.jp/ShoppingWebService/V1/json/categoryRanking';
-const APP_ID = '';
+const API_URL = 'https://shopping.yahooapis.jp/ShoppingWebService/V1/json/categorySearch';
+const APP_ID = 'TODO-SET-KEY';
 
 const startRequest = categoryId => ({
     type: 'START_REQUEST',
