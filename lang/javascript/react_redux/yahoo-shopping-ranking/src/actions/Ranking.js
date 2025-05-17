@@ -1,42 +1,53 @@
 import fetchJsonp from 'fetch-jsonp';
 import qs from 'qs';
+import { replace } from 'react-router-redux';
+const { APP_ID, API_URL } = process.env;
 
-const APP_ID = 'TODO-SET-KEY';
-
-//const API_URL = 'https://shopping.yahooapis.jp/ShoppingWebService/V1/json/categorySearch';
-const API_URL = 'https://shopping.yahooapis.jp/ShoppingWebService/V3/itemSearch';
-
-const startRequest = categoryId => ({
+const startRequest = category => ({
     type: 'START_REQUEST',
-    payload: { categoryId },
+    payload: { category },
 });
 
-const receiveData = (categoryId, error, response) => ({
+const receiveData = (category, error, response) => ({
     type: 'RECEIVE_DATA',
-    payload: { categoryId, error, response },
+    payload: { category, error, response },
 });
 
-const finishRequest = categoryId => ({
+const finishRequest = category => ({
     type: 'FINISH_REQUEST',
-    payload: { categoryId },
+    payload: { category },
 });
 
 export const fetchRanking = categoryId => {
-    return async dispatch => {
-        dispatch(startRequest(categoryId));
+    return async (dispatch, getState) => {
+        const categories = getState().shopping.categories;
+
+        const category = categories.find(category => (category.id === categoryId));
+
+        if (typeof category === 'undefined') {
+            dispatch(replace('/'));
+            return;
+        }
+
+        dispatch(startRequest(category));
 
         const queryString = qs.stringify({
             appid: APP_ID,
-            category_id: categoryId,
+            query: 'nike',
+            genre_category_id: categoryId,
         });
 
         try {
-            const response = await fetchJsonp(`${API_URL}?${queryString}`);
+            const response = await fetch(`${API_URL}?${queryString}`);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
             const data = await response.json();
-            dispatch(receiveData(categoryId, null, data));
+            dispatch(receiveData(category, null, data));
         } catch (err) {
-            dispatch(receiveData(categoryId, err));
+            dispatch(receiveData(category, err));
         }
-        dispatch(finishRequest(categoryId));
+
+        dispatch(finishRequest(category));
     };
 };
