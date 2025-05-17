@@ -1,7 +1,9 @@
 import fetchJsonp from 'fetch-jsonp';
 import qs from 'qs';
 import { replace } from 'react-router-redux';
-const { APP_ID, API_URL } = process.env;
+
+const APP_ID = process.env.REACT_APP_APP_ID;
+const API_URL = process.env.REACT_APP_API_URL;
 
 const startRequest = category => ({
     type: 'START_REQUEST',
