@@ -12,7 +12,7 @@ app.get('/client.bundle.js', (req, res) => {
 
 //app.use('/static', express.static(__dirname + '/static'));
 
-function HTML({ contents, now }) {
+function HTML({ now, children }) {
     return (
         <html lang="ja">
             <head>
@@ -20,7 +20,12 @@ function HTML({ contents, now }) {
                 <title>シンプルなサーバーサイドレンダリング</title>
             </head>
             <body>
+                {/* react15以前}
                 <div id="root" dangerouslySetInnerHTML={{ __html: contents }}></div>
+                */}
+
+                {/* React16以降 */}
+                <div id="root">{children}</div>
 
                 <script
                     type="text/javascript"
@@ -37,15 +42,22 @@ function HTML({ contents, now }) {
 app.get('/', (req, res) => {
     const now = new Date();
 
-    const contentsHTML = ReactDOMServer.renderToString(
-        <App renderedAt={now} />
-    );
+    // React15以前
+    //const contentsHTML = ReactDOMServer.renderToString(
+    //    <App renderedAt={now} />
+    //);
+    //const fullHTML = ReactDOMServer.renderToStaticMarkup(
+    //    <HTML contents={contentsHTML} now={now}/>
+    //);
+    //res.send(fullHTML);
 
-    const fullHTML = ReactDOMServer.renderToStaticMarkup(
-        <HTML contents={contentsHTML} now={now}/>
+    // React16以降
+    const stream = ReactDOMServer.renderToNodeStream(
+        <HTML now={now}>
+            <App renderedAt={now} />
+        </HTML>
     );
-
-    res.send(fullHTML);
+    stream.pipe(res);
 });
 
 app.listen(3000, () => {
