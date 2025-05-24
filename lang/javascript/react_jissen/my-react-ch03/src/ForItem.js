@@ -1,12 +1,12 @@
 import Download from './Download';
 
 export default function ForItem({ book }) {
-    let dd;
-    if (book.download) {
-        dd = <dd>{book.summary}<Download isbn={book.isbn} /></dd>
-    } else {
-        dd = <dd>{book.summary}</dd>
-    }
+    //let dd;
+    //if (book.download) {
+    //    dd = <dd>{book.summary}<Download isbn={book.isbn} /></dd>
+    //} else {
+    //    dd = <dd>{book.summary}</dd>
+    //}
     return (
         <>
             <dt>
@@ -14,7 +14,11 @@ export default function ForItem({ book }) {
                     {book.title} ({book.price}円)
                 </a>
             </dt>
-            {dd}
+            <dd>
+                {book.summary}
+                {book.download && <Download isbn={book.isbn} />}
+                {book.download || ' [X]'}
+            </dd>
         </>
     );
 }

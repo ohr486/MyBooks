@@ -12,10 +12,16 @@ import ForList from './ForList';
 import ForNest from './ForNest';
 import ForFilter from './ForFilter';
 import ForSort from './ForSort';
+import SelectStyle from "./SelectStyle";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
+        <h1>SelectStyle</h1>
+        <SelectStyle mode="light" />
+        <SelectStyle mode="dark" />
+        <SelectStyle mode="foo" />
+
         <h1>ForSort</h1>
         <ForSort src={books} />
 
