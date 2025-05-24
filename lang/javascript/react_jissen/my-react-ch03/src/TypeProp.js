@@ -8,7 +8,19 @@ function TypeProp(props) {
 
 TypeProp.propTypes = {
     prop1: PropTypes.instanceOf(Member),
-    prop2: PropTypes.oneOf(['男性', '女性', 'その他'])
+    prop2: PropTypes.oneOf(['男性', '女性', 'その他']),
+    prop3: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.number,
+        PropTypes.bool,
+    ]),
+    prop4: PropTypes.arrayOf(PropTypes.number),
+    prop5: PropTypes.objectOf(PropTypes.number),
+    prop6: PropTypes.shape({
+        name: PropTypes.string.isRequired,
+        age: PropTypes.number,
+        sex: PropTypes.oneOf([`男性`, `女性`, `その他`]),
+    })
 };
 
 export default TypeProp;
