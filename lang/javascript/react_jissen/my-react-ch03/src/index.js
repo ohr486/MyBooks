@@ -27,12 +27,30 @@ import EventError from "./EventError";
 import EventObj from "./EventObj";
 import EventPoint from "./EventPoint";
 import EventKey from "./EventKey";
+import EventArgs from "./EventArgs";
+import EventArgs2 from "./EventArgs2";
+import EventPropagation from "./EventPropagation";
+import EventOnce from "./EventOnce";
+import EventPassive from "./EventPassive";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
     <>
-        <h1>xxx</h1>
+        <h1>EventPassive</h1>
+        <EventPassive />
+
+        <h1>EventOnce</h1>
+        <EventOnce />
+
+        <h1>EventPropagation</h1>
+        <EventPropagation />
+
+        <h1>EventArgs2</h1>
+        <EventArgs2 />
+
+        <h1>EventArgs</h1>
+        <EventArgs />
 
         <h1>EventKey</h1>
         <EventKey />
