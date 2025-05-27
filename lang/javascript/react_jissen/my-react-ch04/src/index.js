@@ -11,22 +11,29 @@ import FormRadio from './FormRadio';
 import FormCheck from './FormCheck';
 import FormCheckMulti from './FormCheckMulti';
 import FormFile from './FormFile';
+import StateNest from './StateNest';
+import StateNestImmer from './StateNestImmer';
+import StateNestImmer2 from './StateNestImmer2';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
-        <h1></h1>
-        <h1></h1>
-        <h1></h1>
-        <h1></h1>
-        <h1></h1>
-        <h1></h1>
-        <h1></h1>
-        <h1></h1>
-        <h1></h1>
-        <h1></h1>
-        <h1>StateNests</h1>
+        <h1>FormJapan</h1>
+        <h1>FormYum</h1>
+        <h1>FormYup</h1>
+        <h1>FormBasic</h1>
+
+        <h1>StateTodo</h1>
+
+        <h1>StateNestImmer2</h1>
+        <StateNestImmer2 />
+
+        <h1>StateNestImmer</h1>
+        <StateNestImmer />
+
+        <h1>StateNest</h1>
+        <StateNest />
 
         <h1>FormFile</h1>
         <FormFile />
