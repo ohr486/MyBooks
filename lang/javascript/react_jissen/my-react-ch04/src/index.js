@@ -4,10 +4,51 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import StateForm from './StateForm';
 import StateFormUC from './StateFormUC';
+import FormTextarea from './FormTextarea';
+import FormSelect from './FormSelect';
+import FormList from './FormList';
+import FormRadio from './FormRadio';
+import FormCheck from './FormCheck';
+import FormCheckMulti from './FormCheckMulti';
+import FormFile from './FormFile';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <h1>StateNests</h1>
+
+        <h1>FormFile</h1>
+        <FormFile />
+
+        <h1>FormCheckMulti</h1>
+        <FormCheckMulti />
+
+        <h1>FormCheck</h1>
+        <FormCheck />
+
+        <h1>FormRadio</h1>
+        <FormRadio />
+
+        <h1>FormList</h1>
+        <FormList />
+
+        <h1>FormSelect</h1>
+        <FormSelect />
+
+        <h1>FormTextarea</h1>
+        <FormTextarea />
+
         <h1>StateFormUC</h1>
         <StateFormUC />
 
