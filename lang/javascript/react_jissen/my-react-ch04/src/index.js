@@ -14,7 +14,7 @@ import FormFile from './FormFile';
 import StateNest from './StateNest';
 import StateNestImmer from './StateNestImmer';
 import StateNestImmer2 from './StateNestImmer2';
-
+import StateTodo from './StateTodo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,6 +25,7 @@ root.render(
         <h1>FormBasic</h1>
 
         <h1>StateTodo</h1>
+        <StateTodo />
 
         <h1>StateNestImmer2</h1>
         <StateNestImmer2 />
