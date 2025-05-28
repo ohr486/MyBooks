@@ -15,14 +15,16 @@ import StateNest from './StateNest';
 import StateNestImmer from './StateNestImmer';
 import StateNestImmer2 from './StateNestImmer2';
 import StateTodo from './StateTodo';
+import FormBasic from './FormBasic';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
         <h1>FormJapan</h1>
-        <h1>FormYum</h1>
         <h1>FormYup</h1>
+
         <h1>FormBasic</h1>
+        <FormBasic />
 
         <h1>StateTodo</h1>
         <StateTodo />
