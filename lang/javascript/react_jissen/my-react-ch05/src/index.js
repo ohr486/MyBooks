@@ -8,6 +8,11 @@ import ProfilerBasic from './ProfilerBasic';
 import StyledBasic from './StyledBasic';
 import StyledCss from './StyledCss';
 import StyledDynamic from './StyledDynamic';
+import StyledComp from './StyledComp';
+import { MyButton, MyStyledButton } from './StyledComp2';
+import StyledCommon from './StyledCommon';
+import GlobalStyle from './StyledGlobal';
+import StyledProps from './StyledProps';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +21,24 @@ root.render(
     <h1>xxx</h1>
     <h1>xxx</h1>
     <h1>xxx</h1>
+
+    <h1>StyledProps</h1>
+    <StyledProps />
+
+    <h1>StyledGlobal</h1>
+    <GlobalStyle />
+
+    <h1>StyledCommon</h1>
+    <StyledCommon />
+
+    <h1>StyledComp2</h1>
+    <>
+      <MyButton>ボタン</MyButton>
+      <MyStyledButton>ボタン</MyStyledButton>
+    </>
+
+    <h1>StyledComp</h1>
+    <StyledComp />
 
     <h1>StyledDynamic</h1>
     <StyledDynamic theme={{
