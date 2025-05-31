@@ -1,3 +1,5 @@
+/** @jsxImportSource @emotion/react */
+
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import LazyBasic from './LazyBasic';
@@ -13,14 +15,51 @@ import { MyButton, MyStyledButton } from './StyledComp2';
 import StyledCommon from './StyledCommon';
 import GlobalStyle from './StyledGlobal';
 import StyledProps from './StyledProps';
+import EmotionJsx from './EmotionJsx';
+import EmotionComp from './EmotionComp';
+import PortalBasic from './PortalBasic';
+import ErrorRoot from './ErrorRoot';
+import ErrorRetryRoot from './ErrorRetryRoot';
+import ErrorRetryRoot2 from './ErrorRetryRoot2';
+import ErrorEventRoot from './ErrorEventRoot';
+
+import { css, Global } from '@emotion/react';
+const global = css`
+    body {
+        background-color: white;
+    }
+`;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <h1>xxx</h1>
-    <h1>xxx</h1>
-    <h1>xxx</h1>
-    <h1>xxx</h1>
+    <h1>ErrorEventRoot</h1>
+    <ErrorEventRoot />
+
+    <h1>ErrorRetryRoot2</h1>
+    <ErrorRetryRoot2 />
+
+    <h1>ErrorRetryRoot</h1>
+    <ErrorRetryRoot />
+
+    <h1>ErrorRoot</h1>
+    <ErrorRoot />
+
+    <h1>PortalBasic</h1>
+    <div id="dialog"></div>
+    <PortalBasic />
+
+    <h1>Global</h1>
+    <>
+      <Global styles={global} />
+      <EmotionJsx />
+    </>
+
+    <h1>EmotionComp</h1>
+    <EmotionComp />
+
+    <h1>EmotionJsx</h1>
+    <EmotionJsx />
 
     <h1>StyledProps</h1>
     <StyledProps />
