@@ -6,6 +6,7 @@ import MaterialDrawer from './MaterialDrawer';
 import MaterialGrid from './MaterialGrid';
 import MaterialTheme from './MaterialTheme';
 import MaterialMode from './MaterialMode';
+import FormMui from './FormMui';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +14,8 @@ root.render(
     <h1>xxx</h1>
     <h1>xxx</h1>
     <h1>xxx</h1>
-    <h1>xxx</h1>
+    <h1>FormMui</h1>
+    <FormMui />
 
     <h1>MaterialMode</h1>
     <MaterialMode />
