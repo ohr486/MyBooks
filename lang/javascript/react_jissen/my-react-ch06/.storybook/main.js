@@ -8,7 +8,8 @@ const config = {
   ],
   "addons": [
     "@storybook/preset-create-react-app",
-    "@storybook/addon-onboarding"
+    "@storybook/addon-onboarding",
+    "@storybook/addon-docs",
   ],
   "framework": {
     "name": "@storybook/react-webpack5",
@@ -16,6 +17,9 @@ const config = {
   },
   "staticDirs": [
     "../public"
-  ]
+  ],
+  "docs": {
+    "autodocs": true
+  },
 };
 export default config;
