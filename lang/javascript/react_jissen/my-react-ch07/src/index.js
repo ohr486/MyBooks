@@ -14,14 +14,48 @@ import HookReducerInit from './HookReducerInit';
 import HookContext from './HookContext';
 import MyThemeProvider from './MyThemeProvider';
 import HookThemeButton from './HookThemeButton';
+import { RecoilRoot } from 'recoil';
+import RecoilCounter from './RecoilCounter';
+import RecoilTodo from './RecoilTodo';
+import RecoilTodoUp from './RecoilTodoUp';
+import HookMemo from './HookMemo';
+import HookTransition from './HookTransition';
+import HookDeferred from './HookDeferred';
+import HookDeferredTransition from './HookDeferredTransition';
+import HookCustom from './HookCustom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
-        <h1>xxx</h1>
-        <h1>xxx</h1>
-        <h1>xxx</h1>
-        <h1>xxx</h1>
+        <h1>HookCustom</h1>
+        <HookCustom />
+
+        <h1>HookDeferredTransition</h1>
+        <HookDeferredTransition />
+
+        <h1>HookDeferred</h1>
+        <HookDeferred />
+
+        <h1>HookTransition</h1>
+        <HookTransition />
+
+        <h1>HookMemo</h1>
+        <HookMemo />
+
+        <h1>RecoilTodoUp</h1>
+        <RecoilRoot>
+            <RecoilTodoUp />
+        </RecoilRoot>
+
+        <h1>RecoilTodo</h1>
+        <RecoilRoot>
+            <RecoilTodo />
+        </RecoilRoot>
+
+        <h1>RecoilCounter</h1>
+        <RecoilRoot>
+            <RecoilCounter />
+        </RecoilRoot>
 
         <h1>MyThemeProvider</h1>
         <MyThemeProvider>
