@@ -1,9 +1,3 @@
-
-
-
-
-
-
 # MyBooks
 
 ## [WebSite]
