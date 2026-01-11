@@ -1,3 +1,5 @@
+use rand::Rng;
+
 fn main() {
     println!("===== 3-1 所有権と参照 =====");
 
@@ -203,6 +205,75 @@ fn main() {
     let hanako = sample3("Hanako", vec!["Hello", "Welcome", "Bye!"]);
     taro.print_values();
     hanako.print_values();
+
+    // PersonとStudentを定義する
+    let taro = person15("Taro", "taro@yamada", 39);
+    let hanako = student15("Hanako", "hanako@flower", 2);
+    let jiro = person15("Jiro", "jiro@change", 28);
+    let sachiko = student15("Sachiko", "sachiko@happy", 4);
+    let data_p: Vec<Box<Person15>> = vec![taro, jiro];
+    let data_s: Vec<Box<Student15>> = vec![hanako, sachiko];
+    print_all15(data_p);
+    print_all15(data_s);
+
+    // Vec自体にPerson/Studentをまとめて保管する
+    let taro = person15("Taro", "taro@yamada", 39);
+    let hanako = student15("Hanako", "hanako@flower", 2);
+    let jiro = person15("Jiro", "jiro@change", 28);
+    let sachiko = student15("Sachiko", "sachiko@happy", 4);
+    let data: Vec<Box<dyn Print15>> = vec![taro, hanako, jiro, sachiko];
+    print_all15(data);
+
+    println!("===== 3-5 列挙型について =====");
+
+    // 列挙型の値の利用
+    let taro = mydata16("taro");
+    let hanako = mydata16("hanako");
+    let sachiko = mydata16("sachiko");
+    let data = vec![taro, hanako, sachiko];
+    print_all16(data);
+
+    // matchによる分岐処理
+    let taro = person17("Taro", "taro@yamada", 39);
+    let hanako = student17("Hanako", "hanako@flower", 2);
+    let jiro = person17("Jiro", "jiro@change", 28);
+    let sachiko = student17("Sachiko", "sachiko@happy", 4);
+    let data: Vec<Box<dyn Print17>> = vec![taro, hanako, jiro, sachiko];
+    print_all17(data);
+
+    // 列挙型に値を設定する
+    let taro = Kind18::Person(person18("Taro", "taro@yamada", 39));
+    let hanako = Kind18::Student(student18("Hanako", "hanako@flower", 2));
+    let jiro = Kind18::Person(person18("Jiro", "jiro@change", 28));
+    let sachiko = Kind18::Student(student18("Sachiko", "sachiko@happy", 4));
+    let data: Vec<Kind18> = vec![taro, hanako, jiro, sachiko];
+    print_all18(data);
+
+    // Kindごとにmatchを分岐する
+
+    let taro = Kind19::Person(Person19 {
+        name: String::from("Taro"),
+        mail: String::from("taro@yamda"),
+        age: 39
+    });
+    let tama = Kind19::Cat(Cat19 {
+        name: String::from("タマ"),
+        kind: CatKind19::ShortHair,
+        feature: String::from("甘えん坊でなまけもの ")
+    });
+    let aug = Kind19::Cow(Cow19 {
+        kind: CowKind19::Beef,
+        weight: 498,
+        country: String::from("Austraria")
+    });
+
+    let data = vec![taro, tama, aug];
+    print_all19(data);
+
+
+
+
+
 }
 
 // 関数と所有権の移動
@@ -500,3 +571,267 @@ fn sample3<T: core::fmt::Debug>(name: &str, values: Vec<T>) -> Sample3<T> {
         values: values,
     }
 }
+
+// PersonとStudentを定義する
+trait Print15 {
+    fn print15(&self) {
+        println!("not implemented...");
+    }
+}
+
+struct Person15 {
+    name: String,
+    mail: String,
+    age: i32
+}
+
+struct Student15 {
+    name: String,
+    mail: String,
+    grade: i32
+}
+
+impl Print15 for Person15 {
+    fn print15(&self) {
+        println!("Person: {}<{}>({})", &self.name, &self.mail, &self.age);
+    }
+}
+
+impl Print15 for Student15 {
+    fn print15(&self) {
+        println!("Student [grade {}] {}<{}>", &self.grade, &self.name, &self.mail);
+    }
+}
+
+fn person15(name: &str, mail: &str, age: i32) -> Box<Person15> {
+    Box::new(Person15{
+        name: String::from(name),
+        mail: String::from(mail),
+        age: age
+    })
+}
+
+fn student15(name: &str, mail: &str, grade: i32) -> Box<Student15> {
+    Box::new(Student15{
+        name: String::from(name),
+        mail: String::from(mail),
+        grade: grade
+    })
+}
+
+fn print_all15<T: Print15 + ?Sized>(data: Vec<Box<T>>) {
+    for item in data {
+        item.print15();
+    }
+}
+
+// 列挙型の値の利用
+#[derive(Debug, Copy, Clone)]
+enum Kind16 {
+    Person,
+    Student
+}
+
+impl Kind16 {
+    fn random() -> Kind16 {
+        let list = [Kind16::Person, Kind16::Student];
+        let index = rand::thread_rng().gen_range(0..list.len());
+        list[index]
+    }
+}
+
+#[derive(Debug)]
+struct Mydata16 {
+    name: String,
+    kind: Kind16
+}
+
+fn mydata16(name: &str) -> Mydata16 {
+    Mydata16 {name: String::from(name), kind: Kind16::random()}
+}
+
+fn print_all16(data: Vec<Mydata16>) {
+    for item in data {
+        println!("{:?}", item);
+    }
+}
+
+// matchによる分岐処理
+
+struct Person17 {
+    name: String,
+    mail: String,
+    age: i32,
+    struct_kind: Kind16
+}
+
+struct Student17 {
+    name: String,
+    mail: String,
+    grade: i32,
+    struct_kind: Kind16
+}
+
+fn person17(name: &str, mail: &str, age: i32) -> Box<Person17> {
+    Box::new(Person17{
+        name: String::from(name),
+        mail: String::from(mail),
+        age: age,
+        struct_kind: Kind16::Person
+    })
+}
+
+fn student17(name: &str, mail: &str, grade: i32) -> Box<Student17> {
+    Box::new(Student17{
+        name: String::from(name),
+        mail: String::from(mail),
+        grade: grade,
+        struct_kind: Kind16::Student
+    })
+}
+
+trait Print17 {
+    fn kind(&self) -> &Kind16;
+    fn to_string(&self) -> String;
+}
+
+impl Print17 for Person17 {
+    fn kind(&self) -> &Kind16 {
+        &self.struct_kind
+    }
+    fn to_string(&self) -> String {
+        String::from(&self.name) + "<" + &self.mail + ">(" + &self.age.to_string() + ")"
+    }
+}
+
+impl Print17 for Student17 {
+    fn kind(&self) -> &Kind16 {
+        &self.struct_kind
+    }
+    fn to_string(&self) -> String {
+        String::from(&self.name) + "[" + &self.grade.to_string() + "]<" + &self.mail + ">"
+    }
+}
+
+fn print_all17<T:Print17 + ?Sized>(data: Vec<Box<T>>) {
+    for item in data {
+        match item.kind() {
+            Kind16::Person => println!("Person: {}", item.to_string()),
+            Kind16::Student => println!("Student: {}", item.to_string())
+        }
+    }
+}
+
+
+// 列挙型に値を設定する
+
+#[derive(Debug)]
+enum Kind18 {
+    Person(Person18),
+    Student(Student18)
+}
+
+#[derive(Debug)]
+struct Person18 {
+    name: String,
+    mail: String,
+    age: i32
+}
+
+#[derive(Debug)]
+struct Student18 {
+    name: String,
+    mail: String,
+    grade: i32
+}
+
+fn person18(name: &str, mail: &str, age: i32) -> Person18 {
+    Person18 {
+        name: String::from(name),
+        mail: String::from(mail),
+        age: age
+    }
+}
+
+fn student18(name: &str, mail: &str, grade: i32) -> Student18 {
+    Student18 {
+        name: String::from(name),
+        mail: String::from(mail),
+        grade: grade
+    }
+}
+
+trait Print18 {
+    fn to_string(&self) -> String;
+}
+
+impl Print18 for Person18 {
+    fn to_string(&self) -> String {
+        String::from(&self.name) + "<" + &self.name + ">(" + &self.age.to_string() + ")"
+    }
+}
+
+impl Print18 for Student18 {
+    fn to_string(&self) -> String {
+        String::from(&self.name) + "[" + &self.grade.to_string() + "](" + &self.mail + ")"
+    }
+}
+
+fn print_all18(data: Vec<Kind18>) {
+    for item in data {
+        println!("{:?}", item);
+    }
+}
+
+
+// Kindごとにmatchを分岐する
+
+enum Kind19 {
+    Person(Person19),
+    Cat(Cat19),
+    Cow(Cow19)
+}
+
+struct Person19 {
+    name: String,
+    mail: String,
+    age: i32
+}
+
+struct Cat19 {
+    name: String,
+    kind: CatKind19,
+    feature: String
+}
+
+#[derive(Debug)]
+enum CatKind19 {
+    LongHair,
+    ShortHair,
+    Sphynx
+}
+
+struct Cow19 {
+    kind: CowKind19,
+    weight: i32,
+    country: String
+}
+
+#[derive(Debug)]
+enum CowKind19 {
+    Cow,
+    Beef
+}
+
+fn print_all19(data: Vec<Kind19>) {
+    for item in data {
+        match item {
+            Kind19::Person(person) => println!("人: {}<{}>({}).", person.name, person.mail, person.age),
+            Kind19::Cat(cat) => println!("猫: {}({:?}) 性格: \"{}\".", cat.name, cat.kind, cat.feature),
+            Kind19::Cow(cow) => println!("牛: {:?} ({}kg) 原産国: {}", cow.kind, cow.weight, cow.country)
+        }
+    }
+}
+
+
+
