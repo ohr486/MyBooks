@@ -1,4 +1,4 @@
-## lisp
+# lisp
 
 - [LandOfLisp](./lol)
 - 実用CommonLisp

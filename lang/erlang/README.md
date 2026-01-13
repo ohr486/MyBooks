@@ -1,4 +1,4 @@
-## erlang
+# erlang
 
 - プログラミングErlang
 - すごいErlangゆかいに学ぼう

@@ -1,3 +1,3 @@
-## Clojure
+# Clojure
 
 - ProgrammingClojure

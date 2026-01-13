@@ -1,4 +1,4 @@
-## elixir
+# elixir
 
 - ProgrammingElixir
 - ProgrammingPhoenix

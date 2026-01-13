@@ -1,32 +1,32 @@
-## プログラミング言語
+# プログラミング言語
 
-### [Rust](./rust)
+- [Rust](./rust)
 
-### [LISP](./lisp)
+- [LISP](./lisp)
 
-### [Scheme](./scheme)
+- [Scheme](./scheme)
 
-### [Clojure](./clojure)
+- [Clojure](./clojure)
 
-### [JavaScript](./javascript)
+- [JavaScript](./javascript)
 
-### [Ruby](./ruby)
+- [Ruby](./ruby)
 
-### [Python](./python)
+- [Python](./python)
 
-### [Golang](./golang)
+- [Golang](./golang)
 
-### [Elixir](./elixir)
+- [Elixir](./elixir)
 
-### [Erlang](./erlang)
+- [Erlang](./erlang)
 
-### [Haskell](./haskell)
+- [Haskell](./haskell)
 
-### [Java](./java)
+- [Java](./java)
 
-### [C](./c)
+- [C](./c)
 
-### [C#](./cs)
+- [C#](./cs)
 
-### PHP
+- PHP
 
