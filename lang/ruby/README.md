@@ -1,6 +1,5 @@
 # Ruby
 
-- Microscope
 - Rubyのしくみ
 - RSpecBook
 - メタプログラミングRuby
