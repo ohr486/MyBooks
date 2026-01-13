@@ -20,34 +20,5 @@
 - [dotfiles](https://github.com/ohr486/dotfiles)
 - [my\_lifehack\_tools](https://github.com/ohr486/my_lifehack_tools)
 
-## [Lang](https://github.com/ohr486/MyBooks/tree/master/lang)
-
-
-## [AI](https://github.com/ohr486/MyBooks/tree/master/ai)
-
-## [Test](https://github.com/ohr486/MyBooks/tree/master/testing)
-
-## [Infra](https://github.com/ohr486/MyBooks/tree/master/infra)
-
-## [Bigdata](https://github.com/ohr486/MyBooks/tree/master/bigdata)
-
-## [Tools](https://github.com/ohr486/MyBooks/tree/master/tools)
-
-## [App](https://github.com/ohr486/MyBooks/tree/master/app)
-
-## [WebApp](https://github.com/ohr486/MyBooks/tree/master/webapp)
-
-## [Unity]
-
-## [Web3](https://github.com/ohr486/MyBooks/tree/master/web3)
-
-## [Design](https://github.com/ohr486/MyBooks/tree/master/design)
-
-## [Database](https://github.com/ohr486/MyBooks/tree/master/database)
-
-## [Game](https://github.com/ohr486/MyBooks/tree/master/game)
-
-## [OS](https://github.com/ohr486/MyBooks/tree/master/os)
-
-
+## [Lang](./lang)
 
