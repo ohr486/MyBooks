@@ -1,5 +1,5 @@
 [package]
-name = "ch06-2"
+name = "ch06-3"
 version = "0.1.0"
 edition = "2024"
 
@@ -12,3 +12,4 @@ serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 axum-template = "0.14.0"
 tera = "1.17.1"
+handlebars = "4.3.6"

@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>{{title}}</title>
+		<!-- CSS only -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.css"
+		      rel="stylesheet" crossorigin="anonymous">
+	</head>
+	<body class="container">
+		<h1 class="display-6 my-2">{{title}}</h1>
+		{{#if flg}}
+		<p class="alert alert-primary">{{num}}は、偶数です。</p>
+		{{else}}
+		<p class="alert alert-secondary">{{num}}は、奇数です。</p>
+		{{/if}}
+		<hr>
+		<ul>
+			{{#each data}}
+			<li>{{this}}</li>
+			{{/each}}
+		</ul>
+	</body>
+</html>
