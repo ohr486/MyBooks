@@ -1,3 +1,4 @@
 ## Java
 
-[プロになるためのSpring入門](https://github.com/ohr486/MyBooks/tree/master/lang/java/intro-spring)
+- プロになるためのSpring入門
+- Java並行処理プログラミング
