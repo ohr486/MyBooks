@@ -3,7 +3,7 @@ use eframe;
 fn main() {
     let mut native_options = eframe::NativeOptions::default();
     native_options.default_theme = eframe::Theme::Light;
-    native_options.initial_window_size = Some(egui::Vec2 {x: 400.0, y: 600.0});
+    native_options.initial_window_size = Some(egui::Vec2 {x: 400.0, y: 1000.0});
 
     let _ = eframe::run_native(
         "My egui App",
@@ -17,10 +17,20 @@ fn main() {
 #[derive(PartialEq, Debug)]
 enum RadioValue { First, Second, Third }
 
+#[derive(PartialEq, Debug)]
+enum MyItem { First, Second, Third }
+
 struct MyEguiApp {
     pub value1: usize,
     pub value2: bool,
     pub value3: RadioValue,
+    pub value4: usize,
+    pub value5: usize,
+    pub value6: MyItem,
+    pub message: String,
+    pub content: String,
+    pub message2: String,
+    pub content2: String,
 }
 
 impl Default for MyEguiApp {
@@ -29,6 +39,13 @@ impl Default for MyEguiApp {
             value1: 0,
             value2: true,
             value3: RadioValue::First,
+            value4: 0,
+            value5: 0,
+            value6: MyItem::First,
+            message: String::from("Hello"),
+            content: String::from("This is content."),
+            message2: String::from("Hello"),
+            content2: String::from("This is content2."),
         }
     }
 }
@@ -93,11 +110,82 @@ impl eframe::App for MyEguiApp {
 
             ui.separator();
 
+            let msg = format!("value = {:?}.", self.value4);
+            let label_txt = egui::RichText::new(msg).size(28.0);
+            let label = egui::Label::new(label_txt);
+            ui.add(label);
 
+            ui.spacing();
 
+            let sldr = egui::Slider::new(&mut self.value4, 0..=100);
+            ui.add(sldr);
 
+            ui.separator();
 
+            let msg = format!("value = {:?}.", self.value5);
+            let label_txt = egui::RichText::new(msg).size(28.0);
+            let label = egui::Label::new(label_txt);
+            ui.add(label);
 
+            ui.spacing();
+
+            let drg = egui::DragValue::new(&mut self.value5).speed(1);
+            ui.add(drg);
+
+            ui.separator();
+
+            let msg = format!("checked = {:?}.", self.value6);
+            let label_txt = egui::RichText::new(msg).size(32.0);
+            let label = egui::Label::new(label_txt);
+            ui.add(label);
+
+            ui.spacing();
+
+            ui.horizontal(|ui| {
+                let label_1 = egui::RichText::new("First").size(24.0);
+                if ui.add(egui::SelectableLabel::new(self.value6 == MyItem::First, label_1)).clicked() {
+                    self.value6 = MyItem::First
+                }
+                let label_2 = egui::RichText::new("Second").size(24.0);
+                if ui.add(egui::SelectableLabel::new(self.value6 == MyItem::Second, label_2)).clicked() {
+                    self.value6 = MyItem::Second
+                }
+                let label_3 = egui::RichText::new("Third").size(24.0);
+                if ui.add(egui::SelectableLabel::new(self.value6 == MyItem::Third, label_3)).clicked() {
+                    self.value6 = MyItem::Third
+                }
+            });
+
+            ui.separator();
+
+            let msg = format!("Title:\"{}\"\nContent:[{}]", self.message, self.content);
+            let label_txt = egui::RichText::new(msg).size(24.0);
+            let label = egui::Label::new(label_txt);
+            ui.add(label);
+
+            ui.spacing();
+
+            let te_sl = egui::TextEdit::singleline(&mut self.message).font(egui::FontId::proportional(20.0));
+            ui.add(te_sl);
+            let te_ml = egui::TextEdit::multiline(&mut self.content).font(egui::FontId::proportional(20.0));
+            ui.add(te_ml);
+
+            ui.separator();
+
+            let msg = format!("input\"{}\"", self.message2);
+            let label_txt = egui::RichText::new(msg).size(24.0);
+            let label = egui::Label::new(label_txt);
+            ui.add(label);
+
+            ui.spacing();
+
+            let te_sl = egui::TextEdit::singleline(&mut self.message2).font(egui::FontId::proportional(20.0));
+            let resp = ui.add(te_sl);
+            if resp.changed() {
+                self.content2 = format!("{}\n{}", self.message2.to_uppercase(), self.message2.to_lowercase());
+            };
+            let te_ml = egui::TextEdit::multiline(&mut self.content2).font(egui::FontId::proportional(20.0));
+            ui.add(te_ml);
         });
     }
 }
