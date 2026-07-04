@@ -2,4 +2,3 @@
 
 (参考REPO)[https://github.com/oreilly-japan/deep-learning-from-scratch-6]
 
-
